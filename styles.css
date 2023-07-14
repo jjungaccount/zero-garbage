@@ -1,0 +1,155 @@
+* { box-sizing: border-box;}
+
+/* */ /*
+* {border-width: 12px; border-style: solid;} 
+/* */ 
+
+html, body { 
+  height: 100%; 
+  width: 100%;
+  background-color: #FFF;
+  color: #34495e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+.main-img {
+  background-image: url("../img/unwater.jpg");
+  background-size: cover;
+}
+
+.main-img, .main-header, .main-text, .main-padding {
+  padding: 3.9px;
+}
+
+.journal-header, .journal-purpose p, .journal-menu, .journal-submenu, .journal-resources, .journal-links, .journal-footer, .journal-navigation, .website-footer, .journal-contact, .contact-header, .contact-info, .contact-form, ul, footer {
+  padding: 15px;
+}
+
+.image-details {
+  width: 100%;
+  display: block;
+}
+
+.journal-status, .zgstatus  {
+  width: 95%;
+}
+
+.journal-tags {
+  padding: 40px;
+}
+
+.contact-links, .contact-link, .contact-title, .contact-control {
+  padding: 5px;
+}
+
+.pagination {
+  margin: 0;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+
+/*Typography*/
+
+@font-face {
+  font-display: optional;
+  font-family: 'HeaderZero';
+  font-weight: bold;
+  src: url('./fonts/Mefikademo-owEAq.ttf')  format('truetype');
+}
+
+.zero-Z {
+  font-family: HeaderZero;
+  font-size: 1.51em;
+  letter-spacing: 11px;
+  line-height: 0;
+}
+
+.main-header {
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.main-header p {
+  font-size: 3.3em;
+  font-weight: bold;
+  letter-spacing: 11px;
+}
+
+.main-header p, .main-text p {
+  text-align: center;
+}
+
+.main-text p {
+  font-size: 1.41em;
+}
+
+.main-text p, .journal-menu, .journal-resources h2, .contact-submit, .contact-description, .contact-links {
+  letter-spacing: .1px;
+}
+
+.journal-sidebar, .journal-details, .journal-search, .journal-tags {
+  font-family: Arial;
+  font-size: 1.0833em;
+ }
+
+.journal-time {
+  font-size: 1.16em;
+  font-style: italic;
+}
+
+.journal-title {
+  font-size: 1.66em;
+  font-weight: bold;
+  letter-spacing: 1.33px;
+}
+
+.journal-input {
+  font-size: .97em;
+}
+
+.contact-link {
+  color: #34495e;
+}
+
+.journal-resources h2, .contact-submit {
+  font-size: 1.13em;
+}
+
+.journal-resources h2 .zero-Z, .contact-header h2, .contact-submit .zero-Z {
+  font-size: 1.56em;
+  letter-spacing: .8px;
+  padding: 2px;
+}
+
+.journal-resources a {
+  font-style: italic;
+  padding: 2px;
+  color: #0a58ca;
+}
+
+.journal-copyright, .nrlines-text {
+  font-size: .75em;
+}
+
+a:hover, .contact-link {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: default;
+}
